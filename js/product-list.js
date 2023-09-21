@@ -2,7 +2,7 @@ import { Cart } from './cart.js';
 import { ProductsService } from './products-service.js';
 import { showAlert } from './alert.js';
 
-export class ProductList {
+export lass ProductList {
     constructor() {
         this.container = document.querySelector('.products-container');
         this.productsService = new ProductsService();
